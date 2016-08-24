@@ -1,0 +1,42 @@
+﻿生成启动时间为 2016/8/22 15:33:32。
+     1>项目“D:\project\Visual Studio\2013\Snakes\Snakes\Snakes.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D _CRT_SECURE_NO_WARNINGS "Snakes算法.cpp"
+         Snakes算法.cpp
+     1>d:\opencv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(561): error C3867: “std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>::empty”:  函数调用缺少参数列表；请使用“&std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>::empty”创建指向成员的指针
+                 with
+                 [
+                     _Ty=cv::Point
+                 ]
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(571): error C2065: “contour2”: 未声明的标识符
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(574): error C2039: “seq”: 不是“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的成员
+                 with
+                 [
+                     _Ty=cv::Point
+                 ]
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(574): error C2227: “->elem_size”的左边必须指向类/结构/联合/泛型类型
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(574): error C2039: “ptr”: 不是“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的成员
+                 with
+                 [
+                     _Ty=cv::Point
+                 ]
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(574): error C2660: “memcpy”: 函数不接受 2 个参数
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(574): error C2039: “block_max”: 不是“std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>”的成员
+                 with
+                 [
+                     _Ty=cv::Point
+                 ]
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(576): error C3867: “std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>::data”:  函数调用缺少参数列表；请使用“&std::vector<std::vector<cv::Point,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>::data”创建指向成员的指针
+                 with
+                 [
+                     _Ty=cv::Point
+                 ]
+     1>d:\project\visual studio\2013\snakes\snakes\snakes算法.cpp(576): error C2109: 下标要求数组或指针类型
+     1>已完成生成项目“D:\project\Visual Studio\2013\Snakes\Snakes\Snakes.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.60

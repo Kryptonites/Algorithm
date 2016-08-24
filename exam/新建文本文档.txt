@@ -1,0 +1,14 @@
+starttimer:2,2000
+starttimer:1,1000
+elapse:500
+end
+
+stoptimer:2
+end
+
+starttimer:3,3000
+starttimer:2,2000
+end
+
+elapse:3000
+end
